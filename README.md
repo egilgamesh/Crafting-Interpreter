@@ -14,7 +14,8 @@ Start mountain from left
 
 3- analysis is to bind each identifier (variable) to it is value and its scope like global or local. 
 
-4- Optimization is to evaluate the expression in the compiler if the expression always refers to the same value like area =4*4 => area =16
+4- Optimization is to evaluate the expression in the compiler if the expression always refers to the same value like area =4*4 => area =16 .
+
 5- the virtual machine is to translate the bytecode. either by write a little mini compiler to convert to native code for that machine. or you can write VM 
 
 VM is a program that emulates a hypothesis chip supporting your virtual architecture at runtime. but it is slower than translating it to native code. because every instruction must be simulated at runtime each time it executes.
