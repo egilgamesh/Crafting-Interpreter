@@ -8,7 +8,7 @@ Start mountain from left
 
 
 
-1- Start with Scanning which means lexical analysis which converts the string to words, each word or lexeme is called token which can me one character like '(' or ',' or numbers '123' or string like "hi" and identifiers min, scanner usually discard the space or the comments.
+1- Start with Scanning which means lexical analysis which converts the string to words, each word or lexeme is called token which can be one character like '(' or ',' or numbers '123' or string like "hi" and identifiers min, scanner usually discard the space or the comments.
 
 2- next step is parsing, this is where our syntax gets a grammar, grammar is the ability to compose larger expressions out of smaller parts, parse tasks the flat sequence of tokens, and build a tree structure that represents the nested nature of the grammar this tree called parse tree or AST (Abstract syntax tree), it exactly convert the expression to BFS ... back to the data structure
 
